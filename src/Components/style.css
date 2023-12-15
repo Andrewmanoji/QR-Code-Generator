@@ -1,0 +1,67 @@
+body {
+  background-image: url(./bg\ 3.jpg);
+  background-size: 1600px;
+  width: 1000px;
+  height: 400px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  padding: 8px;
+  font-size: 16px;
+  margin-left: -20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: 1px solid rgb(191, 186, 186);
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.qr-code {
+  margin-top: 200px;
+  justify-content: center;
+  margin-left: -170px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: -90px;
+  margin-left: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.download {
+  margin-top: 390px;
+  margin-left: -160px;
+  width: 200px;
+  height: 45px;
+  border-radius: 30px;
+  border: none;
+  color: aliceblue;
+  background-color: blue;
+  border: 1px solid grey;
+}
+
+.download:hover {
+  color: rgb(244, 244, 250);
+  background-color: rgb(244, 7, 7);
+  border: 1px solid rgb(7, 7, 235);
+}
+form {
+  width: 400px;
+  height: 600px;
+  background-color: rgba(240, 248, 255, 0.621);
+  margin-left: 90px;
+  border-radius: 20px;
+  padding-top: 10px;
+  margin-top: 90px;
+  backdrop-filter: blur(15px);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
